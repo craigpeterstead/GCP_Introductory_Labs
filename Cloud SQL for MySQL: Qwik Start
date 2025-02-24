@@ -1,3 +1,8 @@
+export INSTANCE_NAME=myinstance
+export REGION=us-west1
+
+
+
 gcloud sql instances create $INSTANCE_NAME \
   --database-version=MYSQL_8_0 \
   --tier=db-f1-micro \
