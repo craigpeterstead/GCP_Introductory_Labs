@@ -1,3 +1,9 @@
+
+
+
+
+
+
 gcloud sql instances create $INSTANCE_NAME \
   --database-version=MYSQL_8_0 \
   --tier=db-f1-micro \
