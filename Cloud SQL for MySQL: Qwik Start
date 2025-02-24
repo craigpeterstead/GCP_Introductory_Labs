@@ -3,5 +3,5 @@ gcloud sql instances create $INSTANCE_NAME \
   --tier=db-f1-micro \
   --region=$REGION \
   --root-password=$YOUR_ROOT_PASSWORD
-  --edition=ENTERPRISE_PLUS \ 
+  --edition=ENTERPRISE \ 
   --preset=DEVELOPMENT \
