@@ -1,0 +1,7 @@
+gcloud sql instances create $INSTANCE_NAME \
+  --database-version=MYSQL_8_0 \
+  --tier=db-f1-micro \
+  --region=$REGION \
+  --root-password=$YOUR_ROOT_PASSWORD
+  --edition=ENTERPRISE_PLUS \ 
+  --preset=DEVELOPMENT \
